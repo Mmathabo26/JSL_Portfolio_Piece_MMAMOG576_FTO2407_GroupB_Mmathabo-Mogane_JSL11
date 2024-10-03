@@ -21,7 +21,16 @@ function initializeData() {
 // TASK: Get elements from the DOM
 const elements = {
   sideLogoDiv: document.getElementById('side-logo-div'),
-
+  sideBarDiv: document.getElementById('side-bar-div'),
+  logo: document.getElementById('logo'),
+  boardsNavLinksDiv: document.getElementById('boards-nav-links-div'),
+  headlineSidePanel: document.getElementById('headline-sidepanel'),
+  themeSwitch: document.getElementById('switch'),
+  labelCheckboxTheme: document.getElementById('label-checkbox-theme'),
+  hideSideBarBtn: document.getElementById('hide-side-bar-btn'),
+  showSideBarBtn: document.getElementById('show-side-bar-btn'),
+  darkThemeIcon: document.getElementById('icon-dark'),
+  lightThemeIcon: document.getElementById('icon-light'),
 }
 
 let activeBoard = ""
