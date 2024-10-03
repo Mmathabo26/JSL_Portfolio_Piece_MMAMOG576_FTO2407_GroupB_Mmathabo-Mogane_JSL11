@@ -102,7 +102,7 @@ function filterAndDisplayTasksByBoard(boardName) {
       // Listen for a click event on each task and open a modal
       taskElement.click() ; { 
         openEditTaskModal(task);
-      });
+      };
 
       tasksContainer.appendChild(taskElement);
     });
