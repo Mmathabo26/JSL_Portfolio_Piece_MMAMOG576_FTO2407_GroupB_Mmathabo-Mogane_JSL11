@@ -33,6 +33,7 @@ const elements = {
   lightThemeIcon: document.getElementById('icon-light'),
 
   header: document.getElementById('header'),
+
 }
 
 let activeBoard = ""
@@ -61,7 +62,7 @@ function displayBoards(boards) {
     const boardElement = document.createElement("button");
     boardElement.textContent = board;
     boardElement.classList.add("board-btn");
-    boardElement.click()  { 
+    boardElement.click()  ;{ 
       elements.headerBoardName.textContent = board;
       filterAndDisplayTasksByBoard(board);
       activeBoard = board //assigns active board
