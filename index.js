@@ -31,6 +31,8 @@ const elements = {
   showSideBarBtn: document.getElementById('show-side-bar-btn'),
   darkThemeIcon: document.getElementById('icon-dark'),
   lightThemeIcon: document.getElementById('icon-light'),
+
+  header: document.getElementById('header'),
 }
 
 let activeBoard = ""
