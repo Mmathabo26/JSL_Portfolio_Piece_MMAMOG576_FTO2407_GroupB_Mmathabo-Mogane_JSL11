@@ -38,7 +38,7 @@ const elements = {
   addNewTaskBtn: document.getElementById('add-new-task-btn'),
   editBoardBtn: document.getElementById('edit-board-btn'),
   
-  
+
 }
 
 let activeBoard = ""
@@ -211,7 +211,9 @@ function addTask(event) {
 
   //Assign user input to the task object
     const task = {
-      
+      Title: taskTitle,
+      Description: description,
+      Status: status, 
     };
     const newTask = createNewTask(task);
     if (newTask) {
