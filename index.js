@@ -213,7 +213,7 @@ function addTask(event) {
     const task = {
       Title: taskTitle,
       Description: description,
-      Status: status, 
+      Status: taskStatus,
     };
     const newTask = createNewTask(task);
     if (newTask) {
