@@ -25,15 +25,20 @@ const elements = {
   logo: document.getElementById('logo'),
   boardsNavLinksDiv: document.getElementById('boards-nav-links-div'),
   headlineSidePanel: document.getElementById('headline-sidepanel'),
+  darkThemeIcon: document.getElementById('icon-dark'),
   themeSwitch: document.getElementById('switch'),
   labelCheckboxTheme: document.getElementById('label-checkbox-theme'),
+  lightThemeIcon: document.getElementById('icon-light'),
   hideSideBarBtn: document.getElementById('hide-side-bar-btn'),
   showSideBarBtn: document.getElementById('show-side-bar-btn'),
-  darkThemeIcon: document.getElementById('icon-dark'),
-  lightThemeIcon: document.getElementById('icon-light'),
-
+  
   header: document.getElementById('header'),
-
+  headerBoardName: document.getElementById('header-board-name'),
+  dropdownBtn: document.getElementById('dropdownBtn'),
+  addNewTaskBtn: document.getElementById('add-new-task-btn'),
+  editBoardBtn: document.getElementById('edit-board-btn'),
+  
+  
 }
 
 let activeBoard = ""
