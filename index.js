@@ -38,7 +38,18 @@ const elements = {
   addNewTaskBtn: document.getElementById('add-new-task-btn'),
   editBoardBtn: document.getElementById('edit-board-btn'),
   
+  columnDiv: document.querySelector('coulumn-div'),
+  todoHeadDiv: document.getElementById('todo-head-div'),
+  todoDot: document.getElementById('todo-dot'),
+  todoText: document.getElementById('todoText'),
+  
+  doingHeadDiv: document.getElementById('doing-head-div'),
+  doingDot: document.getElementById('doing-dot'),
+  doingText: document.getElementById('doingText'),
 
+  todoColumn: document.querySelector('[data-status="todo"]'),
+  doingColumn: document.querySelector('[data-status="doing"]'),
+  doneColumn: document.querySelector('[data-status="done"]'),
 }
 
 let activeBoard = ""
