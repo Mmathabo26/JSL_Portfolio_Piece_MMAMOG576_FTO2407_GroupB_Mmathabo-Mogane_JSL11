@@ -227,7 +227,7 @@ function addTask(event) {
 
 
 function toggleSidebar(show) {
-  elements.showSideBarBtn = show ? 'flex'
+  elements.showSideBarBtn.style.display = show ? 'flex'
 }
 
 function toggleTheme() {
