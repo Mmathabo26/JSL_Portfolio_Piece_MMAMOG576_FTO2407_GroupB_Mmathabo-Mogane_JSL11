@@ -54,7 +54,7 @@ const elements = {
   newTaskModal: document.getElementById('new-task-modal-window'),
   modalTitle: document.querySelector('modal-title'),
   inputDiv: document.querySelector('input-div'),
-  modalTaskInput: document.getElementById('modal-task-input')
+  modalTaskInput: document.getElementById('modal-task-input'),
   titleInput: document.getElementById('title-input'),
   modalDescInput: document.getElementById('modal-desc-input'),
   descInput: document.getElementById('desc-input'),
