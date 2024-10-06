@@ -47,9 +47,10 @@ const elements = {
   doingDot: document.getElementById('doing-dot'),
   doingText: document.getElementById('doingText'),
 
-  todoColumn: document.querySelector('[data-status="todo"]'),
-  doingColumn: document.querySelector('[data-status="doing"]'),
-  doneColumn: document.querySelector('[data-status="done"]'),
+  doneHeadDiv: document.getElementById('done-head-div'),
+  doneDot: document.getElementById('done-dot'),
+  doneText: document.getElementById('doneText'),
+
 }
 
 let activeBoard = ""
