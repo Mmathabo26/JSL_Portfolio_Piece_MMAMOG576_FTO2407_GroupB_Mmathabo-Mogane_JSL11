@@ -237,17 +237,17 @@ function toggleTheme() {
   localStorage.setItem('light-theme', isLightTheme ? 'enabled': 'disabled');
   elements.themeSwitch.checked = isLightTheme;
   console.log(elements.logoHeader.src)
-  elements.logoHeader,src = elements.logoHeader.src.replace(window.location.origin, ".").replace(isLightTheme ? 'dark': 'light', isLightTheme ? 'light': 'dark');
+  elements.logoHeader.src = elements.logoHeader.src.replace(window.location.origin, ".").replace(isLightTheme ? 'dark': 'light', isLightTheme ? 'light': 'dark');
 }
 
 
 
 function openEditTaskModal(task) {
   // Set task details in modal inputs
-  
+  elements.editTaskTitleInput.value = task.title;
 
   // Get button elements from the task modal
-
+  
 
   // Call saveTaskChanges upon click of Save Changes button
  
