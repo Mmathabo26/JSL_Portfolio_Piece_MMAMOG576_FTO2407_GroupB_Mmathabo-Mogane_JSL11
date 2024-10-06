@@ -1,5 +1,5 @@
 // TASK: import helper functions from utils
-import { functions } from "./taskFunctions.js";
+import { getTasks, saveTasks, createNewTask, patchTask, putTask, deleteTask } from "./taskFunctions.js";
 // TASK: import initialData
 import initialData from "./initialData.js";
 
