@@ -235,6 +235,7 @@ function toggleTheme() {
   document.body.classList.toggle('light-theme');
   const isLightTheme = document.body.classList.contains('light-theme');
   localStorage.setItem('light-theme', isLightTheme ? 'enabled': 'disabled');
+  elements.themeSwitch.checked = isLightTheme;
   
 }
 
